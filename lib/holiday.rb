@@ -103,6 +103,16 @@ def all_supplies_in_holidays(holiday_hash)
     
     puts "#{season.to_s.capitalize}": "#{holiday.faltten}"
     
+    
+  Winter:
+    Christmas: Lights, Wreath
+    New Years: Party Hats
+  Summer:
+    Fourth Of July: Fireworks, BBQ
+  Fall:
+    Thanksgiving: Turkey
+  Spring:
+    Memorial Day: BBQ
   end
 
 end
