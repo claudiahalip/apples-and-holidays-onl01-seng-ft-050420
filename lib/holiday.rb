@@ -51,8 +51,6 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     if season = :spring 
       holiday.each do | h_day, supplies |
         supplies << supply
-        
-        
       end 
     end
   end
@@ -101,14 +99,9 @@ def all_supplies_in_holidays(holiday_hash)
       puts "  #{h_day.to_s.split("_").collect  { | word |
       word.capitalize }.join(" ")}: #{supply.join(", ")}"
     end
-    
-      
-      
-  
-  
   end
-
 end
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
