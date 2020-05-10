@@ -49,8 +49,8 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     
   holiday_hash.each do | season, holiday |
     if season = :spring 
-      holiday.each do | h_day, supply |
-        supply.push("Grill")
+      holiday.each do | h_day, supplies |
+        supplies << supply
         
         
       end 
